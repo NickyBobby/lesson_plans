@@ -26,7 +26,7 @@ require 'capybara/rails'
 
 Time to write the test! We'll use a red-green-refactor approach:
 
-*RED*: Write a test for some piece of functionality that your app should have. Obviously, since we haven't implemented any code, the test should fail. That's what we want!
+*RED*: Write a test for some piece of functionality that your app shouldn't have. Obviously, since we haven't implemented any code, the test should fail. That's what we want!
 
 *GREEN*: Use the error messages and failures to drive your development. Implement the smallest possible piece of code to fix the error. Keep repeating this cycle until you get a passing test.
 
