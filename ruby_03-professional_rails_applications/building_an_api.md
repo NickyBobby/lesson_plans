@@ -142,8 +142,8 @@ def create
         render :new
       end
 
-      format.json { render json: { messages: @item.errors.messages}, status: 400 }
-      format.xml  { render xml:  { messages: @item.errors.messages}, status: 400 }
+      format.json { render json: { messages: @item.errors.messages, status: 400 } }
+      format.xml  { render xml:  { messages: @item.errors.messages, status: 400 } }
     end
   end
 end
